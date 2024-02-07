@@ -5,7 +5,7 @@ RUN gradle build --no-daemon
 
 FROM amazoncorretto:21-alpine3.18
 
-EXPOSE 8080
+EXPOSE 8000
 
 RUN mkdir /app
 
